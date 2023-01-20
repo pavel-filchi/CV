@@ -1,0 +1,116 @@
+/* GENERAL WEBSITE */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERAL CV PAVEL */
+.body-pavel{
+
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+.email{
+    text-decoration: none;
+    color: #446dc4;
+}
+
+.email:hover{
+    text-decoration: underline;
+}
+
+.head2{
+    margin: 0 0 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.text-blue-pavel{
+    color: #4868a6;
+}
+
+.text-pavel{
+    text-transform: uppercase;
+}
+.cv-pavel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 1200px;
+    margin: 100px auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+/* LEFT COLUMN */
+.left-column-pavel{
+    grid-area: left-column;
+    padding: 50px;
+    background-color: #44a6c4;
+    color: white;
+}
+
+.picture-pavel{
+    border-radius: 50%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.skills-pavel{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+}
+.language-pavel{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+}
+
+/* RIGHT COLUMN */
+.right-column-pavel{
+    grid-area: right-column;
+    display: grid;
+    grid-template-rows: 230px 1fr;
+    grid-template-areas:
+    "header"
+    "content";
+}
+
+/* HEADER */
+.header{
+    grid-area: header;
+    padding: 45px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infos-pavel{
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* CONTENT */
+.content-pavel{
+    grid-area: content;
+    padding: 50px;
+}
+
+.experience-pavel{
+    list-style-type: circle;
+
+}
+#training-pavel  {
+    padding-bottom: 1em
+}
